@@ -1,6 +1,6 @@
 import SwiftySites
 
-let footerPartial = { (page: Page?) -> String in """
+func footerPartial(_ page: Page?) -> String { """
 <footer>
     <details>
         <summary>Made with  and <a href="https://github.com/swiftysites/swiftysites">SwiftySites</a>.</summary>

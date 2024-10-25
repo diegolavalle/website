@@ -1,43 +1,42 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "GFMarkdown",
-        "repositoryURL": "https://github.com/swiftysites/gfmarkdown",
-        "state": {
-          "branch": "release",
-          "revision": "287cab2f1206fa89b5e57177942978eab40a800f",
-          "version": null
-        }
-      },
-      {
-        "package": "swift-argument-parser",
-        "repositoryURL": "https://github.com/apple/swift-argument-parser",
-        "state": {
-          "branch": null,
-          "revision": "8f4d2753f0e4778c76d5f05ad16c74f707390531",
-          "version": "1.2.3"
-        }
-      },
-      {
-        "package": "cmark-gfm",
-        "repositoryURL": "https://github.com/apple/swift-cmark.git",
-        "state": {
-          "branch": "gfm",
-          "revision": "3bc2f3e25df0cecc5dc269f7ccae65d0f386f06a",
-          "version": null
-        }
-      },
-      {
-        "package": "SwiftySites",
-        "repositoryURL": "https://github.com/swiftysites/swiftysites",
-        "state": {
-          "branch": "release",
-          "revision": "08b5a99027e088281c7cb0a41956db0f4792481d",
-          "version": null
-        }
+  "originHash" : "49205556b2635bcc41605e7987a3d66b079202ef514407202e24580e1b95f10f",
+  "pins" : [
+    {
+      "identity" : "gfmarkdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftysites/gfmarkdown",
+      "state" : {
+        "revision" : "524dddb3d19356a463a1507fcf36fef882f9fe89",
+        "version" : "1.0.4"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-cmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-cmark.git",
+      "state" : {
+        "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
+        "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "swiftysites",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftysites/swiftysites",
+      "state" : {
+        "revision" : "25b1c6b4dfbabd190ee1dd0be9f6921a22badbcc",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 3
 }

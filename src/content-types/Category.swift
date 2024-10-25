@@ -1,6 +1,6 @@
 enum Category: String, CaseIterable {
-    case swiftUI, swiftServerSide, contentManagement, swiftConcurrency, xcode, devOps
-    
+    case swiftUI, swiftServerSide, contentManagement, swiftConcurrency, xcode, devOps, standardLibrary, restAPI
+
     var name: String {
         switch(self) {
         case .swiftUI:
@@ -15,6 +15,10 @@ enum Category: String, CaseIterable {
             return "Xcode"
         case .devOps:
             return "DevOps"
+        case .standardLibrary:
+            return "Standard Library"
+        case .restAPI:
+            return "REST APIs"
         }
     }
 }

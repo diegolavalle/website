@@ -7,8 +7,8 @@ func baseLayout (page: Page? = nil, post: Post? = nil, main: String) -> String {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/assets/global.css" />
-        <link id="themeCSSLink" rel="stylesheet" href="/assets/dark.css" media="(prefers-color-scheme: dark)" />
         <link rel="stylesheet" href="/assets/highlight.css" />
+        <link id="themeCSSLink" rel="stylesheet" href="/assets/dark.css" media="(prefers-color-scheme: dark)" />
         <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
         <!--script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script-->
         <script src="https://cdn.jsdelivr.net/gh/swiftysites/theme-switch@release/src/theme-switch.min.js"></script>

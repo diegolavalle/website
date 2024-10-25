@@ -3,4 +3,4 @@ publish = "www"
 command = "swift run -c release swiftysites --clean"
 
 [build.environment]
-SWIFT_VERSION = "5.9"
+SWIFT_VERSION = "6.0"
